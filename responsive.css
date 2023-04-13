@@ -1,0 +1,224 @@
+@media screen and (max-width: 1070px) {
+    header nav .logo {
+      padding: 0px 3rem 0px 2rem;
+    }
+  
+    header nav .checkBtn {
+      display: block;
+    }
+  
+    header nav .nav-items {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      /* background-color: rgba(48, 49, 49, 0.5); */
+      top: 0px;
+      right: -100%;
+      transition: all 0.5s;
+      z-index: 10;
+    }
+  
+    header nav .nav-items ul {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      padding: 0px;
+      background-color: white;
+      float: right;
+      align-items: flex-start;
+    }
+  
+    header nav .nav-items .checkBtn {
+      background-color: white;
+      width: 80%;
+      padding: 0px;
+      float: right;
+      position: relative;
+    }
+  
+    header nav .nav-items .checkBtn i {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      color: black;
+    }
+  
+    header nav .nav-items ul li {
+      padding-left: 1rem;
+    }
+  
+    header nav .nav-items ul li a {
+      font-size: 1.1;
+      color: black;
+    }
+  
+    header nav .nav-items ul li a:hover,
+    header nav .nav-items ul li a.active {
+      background-color: transparent;
+      color: var(--active-color);
+    }
+  
+    header nav #check:checked~.nav-items {
+      right: 0px;
+    }
+    main .contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      box-sizing: border-box;
+    }
+    main .contact .contact-foto div {
+      margin-top: 50%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    main .portfolio .foto {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+          }
+          main .social .top ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.1rem;
+            
+        }
+        
+  }
+  @media  screen and (max-width: 900px) {
+    main .foto {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    main .foto .left {
+      background-position: left;
+    }
+    main .foto .right {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    main .all {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 1rem;
+    }
+    main .press {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 1.2em;
+      column-gap: 1.2em;
+    }
+    
+  }
+
+  @media screen and (max-width: 700px) {
+    main .shop {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2.3rem;
+    }
+    main .shop-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2.3rem;
+      margin-top: 1rem;
+    }
+  }  
+  
+  @media screen and (max-width: 480px) {
+    main section {
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    main section .textile-designer,
+    main section .paragraph {
+        width: 59%;
+    }
+    main section .paragraph div {
+        width: 80%;
+    }
+    main .portfolio .foto {
+display: grid;
+grid-template-columns: 1fr;
+row-gap: 1rem;
+    }
+    main .social .top ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.1rem;
+        
+    }
+    main .social .bottom {
+        display: grid;
+        row-gap: 0.4rem;
+    }
+    main .social .bottom input {
+        width: 99%;
+        text-align: center;
+    }
+    main .social .bottom button {
+        padding: 10px;
+    }
+    footer {
+      height: 7rem;
+    }
+    footer .end {
+        display: flex;
+        flex-direction: row-reverse;
+      
+        height: 8rem;
+    }
+    footer .end .faq {
+      display: flex;
+      flex-direction: column;
+    }
+    main .press {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 0.8em;
+      column-gap: 0.8em;
+    }
+    
+    
+  }
+  @media screen and (max-width: 490px) {
+    header nav {
+        width: 100%;
+    }
+    header nav .logo {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    header nav .checkBtn {
+        padding: 10px;
+    }
+    main .about-hr {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0;
+      margin-top: 10px;
+    }
+    main .about-hr p,
+    main .about-hr h1 {
+      font-size: 1em;
+    }
+    main .about-hr .small {
+      width: 20%;
+    }
+    main .small {
+      display: none;
+    }
+    main .shop {
+      display: grid;
+      grid-template-columns: 1fr;
+      column-gap: 2.3rem;
+    }
+    main .shop-bottom {
+      display: grid;
+      grid-template-columns: 1fr;
+      column-gap: 2.3rem;
+  
+    }
+  }
+
